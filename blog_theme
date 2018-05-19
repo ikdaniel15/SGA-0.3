@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Assistant:400|Maven+Pro:900|Shadows+Into+Light" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://getwallpapers.com/wallpaper/full/0/0/6/59058.jpg');
+      background-size: cover;
+      color: white;
+    }
+    p {
+      font-family:assistant;line-height:2;}
+    a {
+      color: white;
+      text-decoration:none;
+      padding: 5px 30px;
+      letter-spacing:1.5px;
+      font-family:assistant;
+      font-size:13px;
+      border:1px solid;
+      border-radius:15px;
+    }
+    h1 {
+      font-size: 90px;
+      font-family:'Maven Pro';
+      letter-spacing:2px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 20px 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    h2 {
+      font-family:abril fatface;
+      letter-spacing:1.5px;
+      color:#777;
+      font-size:30px;      
+      }
+      button {
+        background:transparent;
+        border:2px solid red;
+        padding:7px 40px;
+        border-radius:15px;
+        letter-spacing:0px;
+        font-weight:600;
+        font-size:14px;
+        
+      }
+  </style>
+</head>
+<body>
+  <header>
+  <br>
+    <h1 style="margin:70px;margin-bottom:20px;">Creepy</h1>
+    <em style="font-family:'Shadows Into Light'; letter-spacing:1.5px;font-size:29px;">" The night is dark and full of terror"</em>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Best Poems</a></li>
+      <li><a href="#">Worst Poems</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>VHS umami pop-up trust fund</h2>
+    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Sartorial synth Echo Park, roof party</h2>
+    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Forage food truck keytar master cleanse</h2>
+    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
